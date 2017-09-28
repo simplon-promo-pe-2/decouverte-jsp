@@ -19,4 +19,6 @@ Activités proposées :
 - étape 6 : se concentrer sur *hello.jsp* et remplacer le code dynamique précédent par son équivalent en EL (ne pas se laisser influencer une éventuelle erreur (croix rouge) pouvant être matérialisée par Eclipse)
 - étape 7 : réfléchir à la raison pour laquelle Eclipse pourrait matérialiser une erreur dans la JSP alors que l'application fonctionne malgré tout, puis intégrer la dépendance Maven manquante qui permettra d'améliorer l'expérience développeur dans Eclipse
 - étape 8 : s'intéresser aux variables implicites disponibles avec EL, et inclure notamment l'affichage du User Agent du navigateur de l'utilisateur dans *hello.jsp* en rajoutant un message du type *Vous naviguez avec XXX*
+- étape 9 : transformer le formulaire présent sur *index.html* afin de permettre la saisie d'un nom et d'un prénom, définir une classe Personne regroupant ces 2 notions, et l'utiliser dans la Servlet et la JSP afin de pouvoir regrouper les deux informations saisies dans un même objet et s'en servir pour l'affichage
+- étape 10 : ajouter une nouvelle zone de saisie dans *index.html* afin de permettre la saisie du prénom du conjoint, puis exploiter les informations dans la Servlet afin de construire une liste (*java.util.List*) de 2 personnes dont on cherchera à réaliser l'affichage dans la JSP
 
