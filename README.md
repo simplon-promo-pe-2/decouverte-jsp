@@ -13,6 +13,10 @@ Activités proposées :
 
 - étape 1 : prendre connaissance de la base de code et éprouver l'application
 - étape 2 : créer un fichier *hello.jsp* dans le répertoire src/main/webapp, dont la responsabilité va être d’afficher le texte “Hello World”. Dans la méthode doPost de la Servlet HelloWorld, rediriger la réponse vers hello.jsp
-- étape 3 : rendre *hello.jsp* dynamique en affichant le en majuscule le nom saisi dans le formulaire initial (*index.jsp*) de manière à afficher “Hello ERIC” si “Eric” a été saisi dans le formulaire (tout en gardant “Hello World” si rien n’a été saisi. La transformation du nom en majuscules est de la responsabilité de la Servlet
+- étape 3 : rendre *hello.jsp* dynamique en affichant en majuscule le nom saisi dans le formulaire initial (*index.html*) de manière à afficher “Hello ERIC” si “Eric” a été saisi dans le formulaire (tout en gardant “Hello World” si rien n’a été saisi. La transformation du nom en majuscules est de la responsabilité de la Servlet
 - étape 4 : protéger *hello.jsp* d'appels directs ( http://localhost:8080/decouverte-jsp/hello.jsp ) en la déplaçant dans le répertoire protégé WEB-INF. Le comportement du formulaire présent sur la page d'accueil doit bien évidemmment ne pas être impacté
+- étape 5 : se concentrer sur *hello.jsp* et simplifier la scriptlet en utilisant la baliser &lt;jsp:useBean&gt; combinée à une scriptlet élémentaire de type &lt;%= maValeur %&gt;
+- étape 6 : se concentrer sur *hello.jsp* et remplacer le code dynamique précédent par son équivalent en EL (ne pas se laisser influencer une éventuelle erreur (croix rouge) pouvant être matérialisée par Eclipse)
+- étape 7 : réfléchir à la raison pour laquelle Eclipse pourrait matérialiser une erreur dans la JSP alors que l'application fonctionne malgré tout, puis intégrer la dépendance Maven manquante qui permettra d'améliorer l'expérience développeur dans Eclipse
+- étape 8 : s'intéresser aux variables implicites disponibles avec EL, et inclure notamment l'affichage du User Agent du navigateur de l'utilisateur dans *hello.jsp* en rajoutant un message du type *Vous naviguez avec XXX*
 
